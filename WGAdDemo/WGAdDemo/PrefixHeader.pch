@@ -1,0 +1,13 @@
+//
+//  PrefixHeader.pch
+//  WGAdDemo
+//
+//  Created by Mickey on 2024/3/27.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "WGAdSDK.h"
+
+#endif /* PrefixHeader_pch */
