@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WGAdMobile"
-  spec.version      = "3.0.2"
+  spec.version      = "3.0.3"
   spec.summary      = "WGAdMobile SDK."
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
@@ -100,10 +100,10 @@ Pod::Spec.new do |spec|
 
   spec.vendored_libraries = 'WGAdMobile/*.a','WGAdMobile/wg_tb/*.a'
   spec.source_files = 'WGAdMobile/*.{h}'
-  spec.dependency 'GDTMobSDK', '4.14.12'
+  spec.dependency 'GDTMobSDK', '~> 4.14' #'4.14.12'
 
   #s.dependency 'Ads-CN', '~> 5.7'
-  spec.dependency 'Ads-Fusion-CN-Beta','~> 5.9'
+  spec.dependency 'Ads-Fusion-CN-Beta','~> 6.0'
   spec.dependency 'Ads-Fusion-CN-Beta/CSJMediation'
 
   spec.dependency 'KSAdSDK', '>= 3.3.61'
@@ -117,18 +117,18 @@ Pod::Spec.new do |spec|
 
 #  s.dependency 'SigmobAd-iOS', '~> 4.2'
 
-  spec.dependency 'BaiduMobAdSDK','< 5.352'
+  spec.dependency 'BaiduMobAdSDK','>=5.352'
 
-  spec.dependency 'ToBid-iOS', '~> 3.3'
+  spec.dependency 'ToBid-iOS', '>=3.9.0'
   spec.dependency 'BeiZiSDK-iOS/BeiZiSDK-iOS'
   
   spec.dependency 'CSJMAdmobAdapter', '10.0.0.0'
-  spec.dependency 'CSJMBaiduAdapter', '5.14.0'
-  spec.dependency 'CSJMGdtAdapter', '4.14.30.0'
+  spec.dependency 'CSJMBaiduAdapter', '5.34.0'
+  spec.dependency 'CSJMGdtAdapter', '4.14.63.0'
   spec.dependency 'CSJMKlevinAdapter', '2.11.0.211.1'
-  spec.dependency 'CSJMKsAdapter', '3.3.42.0'
-  spec.dependency 'CSJMMintegralAdapter', '7.3.4.0.1'
-  spec.dependency 'CSJMSigmobAdapter', '4.8.0.0'
+  spec.dependency 'CSJMKsAdapter', '3.3.61.0.0'
+  spec.dependency 'CSJMMintegralAdapter', '7.5.5.0.0'
+  spec.dependency 'CSJMSigmobAdapter', '4.11.1.0'
   spec.dependency 'CSJMUnityAdapter', '4.3.0.0'
 
 end
