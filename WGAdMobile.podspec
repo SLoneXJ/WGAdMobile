@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WGAdMobile"
-  spec.version      = "3.0.3"
+  spec.version      = "3.0.6"
   spec.summary      = "WGAdMobile SDK."
 
   # This description is used to generate tags and improve search results.
@@ -100,7 +100,7 @@ Pod::Spec.new do |spec|
 
   spec.vendored_libraries = 'WGAdMobile/*.a','WGAdMobile/wg_tb/*.a'
   spec.source_files = 'WGAdMobile/*.{h}'
-  spec.dependency 'GDTMobSDK', '~> 4.14' #'4.14.12'
+  spec.dependency 'GDTMobSDK', '~> 4.15' #'4.14.12'
 
   #s.dependency 'Ads-CN', '~> 5.7'
   spec.dependency 'Ads-Fusion-CN-Beta','~> 6.0'

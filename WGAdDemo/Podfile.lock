@@ -1,11 +1,11 @@
 PODS:
-  - Ads-Fusion-CN-Beta (6.2.0.9):
-    - Ads-Fusion-CN-Beta/BUAdSDK (= 6.2.0.9)
-  - Ads-Fusion-CN-Beta/BUAdSDK (6.2.0.9)
-  - Ads-Fusion-CN-Beta/CSJMediation (6.2.0.9):
+  - Ads-Fusion-CN-Beta (6.4.2.7):
+    - Ads-Fusion-CN-Beta/BUAdSDK (= 6.4.2.7)
+  - Ads-Fusion-CN-Beta/BUAdSDK (6.4.2.7)
+  - Ads-Fusion-CN-Beta/CSJMediation (6.4.2.7):
     - Ads-Fusion-CN-Beta/BUAdSDK
-  - BaiduMobAdSDK (5.360)
-  - BeiZiSDK-iOS/BeiZiSDK-iOS (4.90.4.17)
+  - BaiduMobAdSDK (5.371)
+  - BeiZiSDK-iOS/BeiZiSDK-iOS (4.90.4.32)
   - CSJMAdmobAdapter (10.0.0.0):
     - Ads-Fusion-CN-Beta/CSJMediation (>= 5.1.6.0)
   - CSJMBaiduAdapter (5.34.0):
@@ -22,10 +22,8 @@ PODS:
     - Ads-Fusion-CN-Beta/CSJMediation (>= 5.9.0.7)
   - CSJMUnityAdapter (4.3.0.0):
     - Ads-Fusion-CN-Beta/CSJMediation (>= 5.1.6.0)
-  - GDTMobSDK (4.14.90):
-    - GDTMobSDK/GDTMobSDK (= 4.14.90)
-  - GDTMobSDK/GDTMobSDK (4.14.90)
-  - KSAdSDK (3.3.67)
+  - GDTMobSDK (4.15.10)
+  - KSAdSDK (3.3.69.3)
   - Masonry (1.1.0)
   - MintegralAdSDK (7.4.8):
     - MintegralAdSDK/BannerAd (= 7.4.8)
@@ -68,11 +66,11 @@ PODS:
     - MintegralAdSDK/NativeAd
   - MintegralAdSDK/SplashAd (7.4.8):
     - MintegralAdSDK/NativeAd
-  - ToBid-iOS (3.9.0):
-    - ToBid-iOS/ToBidSDK (= 3.9.0)
-  - ToBid-iOS/ToBidSDK (3.9.0)
+  - ToBid-iOS (4.1.0):
+    - ToBid-iOS/ToBidSDK (= 4.1.0)
+  - ToBid-iOS/ToBidSDK (4.1.0)
   - "UITextView+Placeholder (1.4.0)"
-  - WGAdMobile (3.0.3):
+  - WGAdMobile (3.0.6):
     - Ads-Fusion-CN-Beta (~> 6.0)
     - Ads-Fusion-CN-Beta/CSJMediation
     - BaiduMobAdSDK (>= 5.352)
@@ -85,7 +83,7 @@ PODS:
     - CSJMMintegralAdapter (= 7.5.5.0.0)
     - CSJMSigmobAdapter (= 4.11.1.0)
     - CSJMUnityAdapter (= 4.3.0.0)
-    - GDTMobSDK (~> 4.14)
+    - GDTMobSDK (~> 4.15)
     - KSAdSDK (>= 3.3.61)
     - MintegralAdSDK (~> 7.0)
     - MintegralAdSDK/BannerAd
@@ -125,9 +123,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Ads-Fusion-CN-Beta: 5f396c3789aa74e40a8be5bfe9a0a6d5835502ca
-  BaiduMobAdSDK: c354af095717e6372cbc4997b3e58645283c4908
-  BeiZiSDK-iOS: 22b6ec06e9964a39ac6b0a468fbb3809ad52cc21
+  Ads-Fusion-CN-Beta: 52006501541ca773f1c7f2e12cc134a5452690e3
+  BaiduMobAdSDK: 0a7d62ecdd0b25228bb6d3e46770e78bbe58ba34
+  BeiZiSDK-iOS: d4c921600bb6ca1b398393367e9cddd030ed325b
   CSJMAdmobAdapter: 5b28964907a769609bf43fd70517b778dc729394
   CSJMBaiduAdapter: 966e2992ad47a3b589a979f295b2a2a2212b0ee2
   CSJMGdtAdapter: af4675b025885fe2a482b91baae2d27e56001510
@@ -136,13 +134,13 @@ SPEC CHECKSUMS:
   CSJMMintegralAdapter: 8723bf5cd5443466edbc0d58a9ead78965f99203
   CSJMSigmobAdapter: 406a56e0da295fec8b61a8b1e0302b4c56bbd377
   CSJMUnityAdapter: 815716bf55165ddcd50104be2129966ae8773085
-  GDTMobSDK: cb7162e527f2db41f97786f3fb6498544d5d10e7
-  KSAdSDK: 72b104178a0a0dbf6f1e9c5a9d7cddd544464ecb
+  GDTMobSDK: 71e264496ba2ade7d9ce528f4eba1a5424a86654
+  KSAdSDK: a43b039755299f770f7fc81cba0ebf64ae4f03a8
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MintegralAdSDK: ee69f71e371f25c2459315a1f724d13fa119ad88
-  ToBid-iOS: a698c0e1df48503913643829194f498a27065463
+  ToBid-iOS: d307f20d17fe3d311c0326b4013fd2cf0ac244d7
   "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
-  WGAdMobile: 26a30b2d0b2ac6d8721315f802b6a8d84bede6ec
+  WGAdMobile: c01d8bad48bc423af28c128f2dae970150a77750
 
 PODFILE CHECKSUM: 078dba25502b390b16355edc17ad0c2fc5a0e729
 
